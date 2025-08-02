@@ -1,0 +1,12 @@
+learning_rate: 0.1
+epochs: 10000
+
+hidden_layer:
+  - weights: [0.1, -1.8]
+    bias: 0.2
+  - weights: [-0.5, 0.7]
+    bias: 0.3
+
+output_layer:
+  - weights: [0.4, -0.6]
+    bias: 0.1
